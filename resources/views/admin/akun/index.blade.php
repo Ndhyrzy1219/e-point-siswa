@@ -42,7 +42,7 @@
             <td>{{ $user->usertype }}</td>
             @if ($user->usertype == 'admin'):
             <td>
-             <a href="{{ route('akun.edit', $user->id) }}" class="btn btn-sm btn-primary">EDIT</a>
+             <!-- <a href="{{ route('akun.edit', $user->id) }}" class="btn btn-sm btn-primary">EDIT</a> -->
             </td>
             @else
             <td>
